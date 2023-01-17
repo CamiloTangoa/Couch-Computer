@@ -3,3 +3,7 @@
     --border-color: rgb(0, 0, 0);
     --box-shadow-color: rgb(82, 80, 80);
 }
+
+html {
+    box-sizing: border-box;
+}
