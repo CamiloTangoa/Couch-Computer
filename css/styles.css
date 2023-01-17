@@ -4,6 +4,15 @@
     --box-shadow-color: rgb(82, 80, 80);
 }
 
+.button {
+    border: 1.5px solid var(--border-color);
+    height: 7vh;
+    min-height: 50px;
+    min-width: 200px;
+    width: 20vw;
+    font-size: 1.8rem;
+}
+
 html {
     box-sizing: border-box;
 }
