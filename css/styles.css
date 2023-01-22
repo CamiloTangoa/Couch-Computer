@@ -4,6 +4,10 @@
     --box-shadow-color: rgb(82, 80, 80);
 }
 
+.section {
+    width: 75vw;
+}
+
 .button {
     border: 1.5px solid var(--border-color);
     height: 7vh;
