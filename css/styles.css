@@ -4,8 +4,8 @@
     --box-shadow-color: rgb(82, 80, 80);
 }
 
-.section {
-    width: 75vw;
+html {
+    box-sizing: border-box;
 }
 
 .button {
@@ -28,12 +28,12 @@
     width: fit-content;
 }
 
-.nav-bar_item {
+.nav-bar__item {
     border: 1px solid var(--border-color);
     flex: 1 1 0px;
     margin: 8.5px 0 0 ;
 }
 
-html {
-    box-sizing: border-box;
+.section {
+    width: 75vw;
 }
