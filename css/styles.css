@@ -4,6 +4,10 @@
     --box-shadow-color: rgb(82, 80, 80);
 }
 
+body {
+    display: flex;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -19,7 +23,6 @@ html {
 
 .nav-bar {
     border: 1px solid var(--border-color); /*Temporal*/
-    display: flex;
     flex-direction: column;
     display: inline-block;
     margin: -8.5px 0 0 -9.5px;
