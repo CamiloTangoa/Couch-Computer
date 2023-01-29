@@ -14,21 +14,21 @@ html {
 
 .button {
     border: 1.5px solid var(--border-color);
+    font-size: 1.8rem;
     height: 7vh;
     min-height: 50px;
     min-width: 200px;
-    width: 20vw;
-    font-size: 1.8rem;
+    width: 100%;
 }
 
 .nav-bar {
     border: 1px solid var(--border-color); /*Temporal*/
-    flex-direction: column;
     display: inline-block;
-    margin: -8.5px 0 0 -9.5px;
-    justify-content: space-between;
+    flex-direction: column;
     height: 100vh;
-    width: fit-content;
+    justify-content: space-between;
+    margin: -8.5px 0 0 -9.5px;
+    width: 30vw;
 }
 
 .nav-bar__item {
