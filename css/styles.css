@@ -38,5 +38,6 @@ html {
 }
 
 .section {
-    width: 75vw;
+    width: 70vw;
+    padding: 10px 0px 10px 10px;
 }
