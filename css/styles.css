@@ -38,6 +38,11 @@ html {
 }
 
 .section {
-    width: 70vw;
     padding: 10px 0px 10px 10px;
+    width: 70vw;
+}
+
+.section__code {
+    background-color: grey;
+    margin: 5px 0px 5px 25px;
 }
