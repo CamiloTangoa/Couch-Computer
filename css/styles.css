@@ -17,6 +17,7 @@ html {
 }
 
 .button {
+    background-color: var(--orange);
     border: 1.5px solid var(--border-color);
     font-size: 1.8rem;
     height: 7vh;
@@ -36,6 +37,7 @@ html {
 }
 
 .nav-bar__item {
+    background-color: var(--green);
     border: 1px solid var(--border-color);
     flex: 1 1 0px;
     margin: 8.5px 0 0 ;
@@ -47,6 +49,6 @@ html {
 }
 
 .section__code {
-    background-color: grey;
+    background-color: var(--light-green);
     margin: 5px 0px 5px 25px;
 }
