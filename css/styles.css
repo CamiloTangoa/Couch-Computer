@@ -1,7 +1,11 @@
 :root {
-    --color1: rgb(225, 120, 25);
-    --border-color: rgb(0, 0, 0);
-    --box-shadow-color: rgb(82, 80, 80);
+    --border-color: #000000;
+    --box-shadow-color: #525050;
+    --dark-green: #164A41;
+    --green: #4D774E;
+    --light-green: #9DC88D;
+    --orange: #F1B24A;
+    --white: #FFFFFF;
 }
 
 body {
