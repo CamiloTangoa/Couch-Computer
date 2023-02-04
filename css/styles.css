@@ -16,6 +16,12 @@ html {
     box-sizing: border-box;
 }
 
+.article-body {
+    background-color: var(--white);
+    border-radius: 7px 7px 0px 0px;
+    margin: 0px 0px 0px 0.4rem;
+}
+
 .button {
     background-color: var(--orange);
     border: 1.5px solid var(--border-color);
