@@ -22,16 +22,6 @@ html {
     margin: 0px 0px 0px 0.4rem;
 }
 
-.button {
-    background-color: var(--orange);
-    border: 1.5px solid var(--border-color);
-    font-size: 1.8rem;
-    height: 7vh;
-    min-height: 50px;
-    min-width: 200px;
-    width: 100%;
-}
-
 .nav-bar {
     border: 1px solid var(--border-color); /*Temporal*/
     display: inline-block;
@@ -42,11 +32,21 @@ html {
     width: 30vw;
 }
 
-.nav-bar__item {
+.nav-bar__button {
     background-color: var(--green);
     border: 1px solid var(--border-color);
     flex: 1 1 0px;
     margin: 8.5px 0 0 ;
+}
+
+.nav-bar__main-button {
+    background-color: var(--orange);
+    border: 1.5px solid var(--border-color);
+    font-size: 1.8rem;
+    height: 7vh;
+    min-height: 50px;
+    min-width: 200px;
+    width: 100%;
 }
 
 .section {
