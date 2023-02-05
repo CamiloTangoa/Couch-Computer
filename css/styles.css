@@ -10,6 +10,7 @@
 
 body {
     display: flex;
+    margin: 0;
 }
 
 html {
@@ -19,7 +20,7 @@ html {
 .article-body {
     background-color: var(--white);
     border-radius: 7px 7px 0px 0px;
-    margin: 0px 0px 0px 0.4rem;
+    margin: 0.4rem 0px 0px 0.4rem;
 }
 
 .nav-bar {
@@ -27,7 +28,6 @@ html {
     flex-direction: column;
     height: 100vh;
     justify-content: space-between;
-    margin: -8.5px 0 0 -9.5px;
     width: 30vw;
 }
 
