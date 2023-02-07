@@ -28,9 +28,9 @@ html {
 }
 
 .nav-bar {
-    height: 100vh;
+    height: 93vh;
     position: fixed;
-    top: 0;
+    bottom: 0;
     width: 30vw;
 }
 
@@ -76,7 +76,6 @@ html {
 .menu {
     background-color: var(--dark-green);
     height: 7vh;
-    margin: 0 0 0 30vw;
     position: sticky;
     top: 0;
 }
