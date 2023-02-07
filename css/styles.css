@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat&display=swap');
+
 :root {
     --border-color: #000000;
     --box-shadow-color: #525050;
     --dark-green: #164A41;
+    --dark-green-contrast: #83BB84;
     --green: #4D774E;
     --light-green: #9DC88D;
+    --light-green-contrast: #0F100F;
     --orange: #F1B24A;
     --white: #FFFFFF;
 }
@@ -31,14 +35,21 @@ html {
 }
 
 .nav-bar__button {
-    background-color: var(--green);
+    background-color: var(--light-green);
     border: unset;
     width: 100%;
+    height: 5.5vh;
+    font-family: 'Montserrat', serif;
+    text-align: left;
+    padding: 0 0 0 1rem;
+    color: var(--light-green-contrast);
+    font-size: 16px;
 }
 
 .nav-bar__main-button {
-    background-color: var(--orange);
+    background-color: var(--green);
     border: unset;
+    font-family: 'Arvo', serif;
     font-size: 1.8rem;
     height: 7vh;
     min-height: 50px;
@@ -48,6 +59,7 @@ html {
 
 .section {
     padding: 10px;
+    font-family: 'Montserrat', serif;
 }
 
 .section__code {
