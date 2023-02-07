@@ -18,8 +18,9 @@ html {
 
 .article-body {
     background-color: var(--white);
+    height: 93vh;
     margin: 0 0 0px 30vw;
-    height: 100vh;
+    overflow: auto;
 }
 
 .nav-bar {
