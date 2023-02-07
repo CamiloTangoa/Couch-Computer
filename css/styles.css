@@ -62,7 +62,7 @@ html {
     padding: 10px;
 }
 
-.section-title {
+.section__title {
     font-family: 'Arvo', serif;
 }
 
@@ -73,7 +73,7 @@ html {
     padding: 4px 10px;
 }
 
-.utility-bar {
+.menu {
     background-color: var(--dark-green);
     height: 7vh;
     margin: 0 0 0 30vw;
