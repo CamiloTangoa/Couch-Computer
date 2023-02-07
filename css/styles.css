@@ -18,8 +18,8 @@ html {
 
 .article-body {
     background-color: var(--white);
-    border-radius: 7px 7px 0px 0px;
-    margin: 0.4rem 0.4rem 0px 31vw;
+    margin: 0 0 0px 30vw;
+    height: 100vh;
 }
 
 .nav-bar {
