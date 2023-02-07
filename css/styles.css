@@ -3,12 +3,14 @@
 :root {
     --border-color: #000000;
     --box-shadow-color: #525050;
-    --dark-green: #164A41;
+    --text-font: "Montserrat", serif;
+    --title-font: "Arvo", serif;
+    --dark-green: #164A41; /* Start of color palette 1 (Green) */
     --dark-green-contrast: #83BB84;
     --green: #4D774E;
     --light-green: #9DC88D;
     --light-green-contrast: #0F100F;
-    --orange: #F1B24A;
+    --orange: #F1B24A; /* End of color palette 1 (Green) */
     --white: #FFFFFF;
 }
 
@@ -39,13 +41,13 @@ html {
 .menu__text-left {
     color: var(--dark-green-contrast);
     float: left;
-    font-family: "Arvo";
+    font-family: var(--title-font);
 }
 
 .menu__text-right {
     color: var(--dark-green-contrast);
     float: right;
-    font-family: "Arvo";
+    font-family: var(--title-font);
 }
 
 .menu__spacing {
@@ -63,7 +65,7 @@ html {
     background-color: var(--light-green);
     border: unset;
     color: var(--light-green-contrast);
-    font-family: 'Montserrat', serif;
+    font-family: var(--text-font);
     font-size: 16px;
     height: 5.5vh;
     padding: 0 0 0 1rem;
@@ -74,7 +76,7 @@ html {
 .nav-bar__main-button {
     background-color: var(--green);
     border: unset;
-    font-family: 'Arvo', serif;
+    font-family: var(--text-font);
     font-size: 1.8rem;
     height: 7vh;
     min-height: 50px;
@@ -83,12 +85,12 @@ html {
 }
 
 .section {
-    font-family: 'Montserrat', serif;
+    font-family: var(--text-font);
     padding: 10px;
 }
 
 .section__title {
-    font-family: 'Arvo', serif;
+    font-family: var(--title-font);
 }
 
 .section__code {
