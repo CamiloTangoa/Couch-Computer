@@ -27,10 +27,35 @@ html {
     overflow: auto;
 }
 
+.menu {
+    align-items: center;
+    background-color: var(--dark-green);
+    display: flex;
+    height: 7vh;
+    position: sticky;
+    top: 0;
+}
+
+.menu__text-left {
+    color: var(--dark-green-contrast);
+    float: left;
+    font-family: "Arvo";
+}
+
+.menu__text-right {
+    color: var(--dark-green-contrast);
+    float: right;
+    font-family: "Arvo";
+}
+
+.menu__spacing {
+    flex: 1;
+}
+
 .nav-bar {
+    bottom: 0;
     height: 93vh;
     position: fixed;
-    bottom: 0;
     width: 30vw;
 }
 
@@ -71,11 +96,4 @@ html {
     margin: 5px 3rem 0 25px;
     overflow: auto;
     padding: 4px 10px;
-}
-
-.menu {
-    background-color: var(--dark-green);
-    height: 7vh;
-    position: sticky;
-    top: 0;
 }
