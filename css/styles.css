@@ -9,7 +9,6 @@
 }
 
 body {
-    display: flex;
     margin: 0;
 }
 
@@ -20,14 +19,13 @@ html {
 .article-body {
     background-color: var(--white);
     border-radius: 7px 7px 0px 0px;
-    margin: 0.4rem 0px 0px 0.4rem;
+    margin: 0.4rem 0.4rem 0px 31vw;
 }
 
 .nav-bar {
-    display: inline-block;
-    flex-direction: column;
     height: 100vh;
-    justify-content: space-between;
+    position: fixed;
+    top: 0;
     width: 30vw;
 }
 
@@ -49,7 +47,6 @@ html {
 
 .section {
     padding: 10px 0px 10px 10px;
-    width: 70vw;
 }
 
 .section__code {
